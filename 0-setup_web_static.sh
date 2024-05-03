@@ -1,5 +1,5 @@
 #!/usr/bin/evn bash
-
+# bash scrip that helps one setup a simple testing webpage
 # global var
 nginx_conf="/etc/nginx/sites-available/default"
 config_line="\\\tlocation /hbnb_static {\n\t\talias /data/web_static/current;\n\t}"
